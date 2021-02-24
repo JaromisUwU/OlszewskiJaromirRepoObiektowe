@@ -14,19 +14,15 @@ int r7=r.nextInt();
 int r8=r.nextInt();
 int r9=r.nextInt();
 int r10=r.nextInt();
-
- 
 int table[][]={ {r1,r2,r3,r4,r5},{r6,r7,r8,r9,r10}
 };
- 
 for (int i=0; i<table.length; i++)
 {
     for(int j=0;j<table[i].length; j++)
     {
         System.out.print(table[i][j]+"  ");
     }
-    System.out.println();
-     
+    System.out.println();    
 }
  
  	}
