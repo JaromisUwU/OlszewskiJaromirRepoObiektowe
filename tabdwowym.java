@@ -1,19 +1,37 @@
 public class tabdwowym{
     public static void main (String[] args){
-        tablica();
+        
+    
+ class TabliceDwuwymiarowa{
+    public static void main(String [] args){
+        tablica2x2();
     }
-    private static void tabdwowym(){
-        int[][] tab = new int [2][2];
+    private static void tablica2x2(){
+        int  tab[][] = new int[2][2];
         tab[0][0] = 1;
         tab[0][1] = 2;
-        tab[1][1] = 3;
-        tab[1][2] = 4;
-
-        for (int i=0; i<tab.lenght; i++){
-            for(int j=0; j<tab[i].length; j++){
+        tab[1][0] = 3;
+        tab[1][1] = 4;
+        for (int i=0;i<tab.length;i++){
+            for(int j=0;j<tab[i].length;j++){
                 System.out.println(tab[i][j]);
             }
         }
+            private static void tablicaTabliczkaMnozenia(){
+                int [][] tab = new int [2][2];
+
+                for(int i=0;i<tab.length;i++){
+                    for(int j=0;j<tab[i].length;j++){
+                        tab[i][j] = (i=1)*(j=1);
+                    }
+                }
+                for(int i=0;i<tab.length;i++){
+                    for(int j=0;j<tab[i].length;j++){
+                        System.out.println();
+                    }
+                }
+            }
+    }
     }
     
 }
