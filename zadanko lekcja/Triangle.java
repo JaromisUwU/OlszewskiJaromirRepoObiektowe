@@ -11,6 +11,14 @@ class Triangle {
         //Konstruktor1 Trojkat normal
        public Triangle(int pod,int wys){
         System.out.println("Pole trojkata: " + (pod*wys/2));
+        //nastepny wzor
+
+    }
+      //Konstruktor1 Trojkat normal
+       public Triangle2(int a,int b,int c,int r){
+        System.out.println("Pole trojkata promien: " + (a*b*c/2 * r));
+        //nastepny wzor
+        
     }
     } 
 }
